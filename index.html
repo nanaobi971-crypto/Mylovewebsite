@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For My Love ❤️</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      background: linear-gradient(135deg, #33001b, #ff0080);
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .card {
+      max-width: 420px;
+      padding: 30px 20px;
+      border-radius: 25px;
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .heart {
+      font-size: 65px;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    button {
+      padding: 14px 22px;
+      border: none;
+      border-radius: 30px;
+      background: white;
+      color: #d60062;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    #message {
+      display: none;
+      line-height: 1.8;
+      margin-top: 25px;
+    }.my-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin: 15px auto;
+}
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="heart">❤️</div>
+
+    <h1>For My Beautiful Princess, Jessica Donkor</h1>
+<img src="myphoto.jpg" alt="My picture" class="my-photo">
+    <p>I have a little surprise for you, my love...</p>
+
+    <button onclick="revealMessage()">
+      Open Your Surprise 💌
+    </button>
+
+<div id="message">
+  <h2>My Beautiful Love ❤️🥹</h2>
+
+  <p>
+    My love, sometimes I struggle to find the right words
+    to explain how much you mean to me. You have a special
+    place in my heart, and having you in my life means more
+    to me than you may ever know.
+  </p>
+
+  <p>
+    Even on difficult days, I want you to remember that
+    you are precious to me. I want to be someone who listens
+    to you, supports you, makes you smile, and stands beside
+    you when life gets hard.
+  </p>
+
+  <p>
+    When I think about my future, I hope to see you in it.
+    I want us to keep growing together, creating beautiful
+    memories, overcoming challenges, and building something
+    real and lasting.
+  </p>
+
+  <p>
+    I cannot promise that every day will be perfect, but
+    I can promise to keep choosing honesty, care, respect,
+    and effort as we build our relationship together.
+  </p>
+
+  <h3>You are special to me, today and always. I love you, Hayati ❤️💍</h3>
+
+  <p>
+    With all my love,<br>
+    Yours truly.Nana Kobina Akaa 💖
+  </p>
+<button onclick="showLoveReply()">
+  I Love You Too ❤️
+</button>
+
+<p id="loveReply" style="display:none;">
+  You just made my heart smile! 🥹❤️
+  <br>
+  No matter what tomorrow brings, I hope we keep
+  choosing each other, growing together, and making
+  beautiful memories. You mean so much to me! 💍💕
+</p>
+
+
+</div>
+
+
+   
+  <script>
+    function revealMessage() {
+      document.getElementById("message").style.display = "block";
+    }
+function showLoveReply() {
+  document.getElementById("loveReply").style.display = "block";
+}
+  </script>
+</body>
+</html>
+
